@@ -1,30 +1,32 @@
 # Project Title: Version Display
 
 ## Overview
-This project is a simple, single-page web application that displays the text 'Version 1.0' in a red-colored, h1#title element. The purpose of this application is to demonstrate the basic capabilities of HTML and CSS, showcasing the creation of a basic HTML structure and the application of CSS styles. While this application is simple, it serves as a stepping stone towards understanding and creating more complex and dynamic web applications.
+Following the successful completion of the first version of the Version Display application, we now present to you Version 2.0. This version introduces some modifications in line with the project brief. The web application still maintains its simplicity, while also demonstrating the dynamic nature of web development.
 
-This application is designed with a responsive layout, making it compatible with various devices and screen sizes. Although there is no complex logic involved in this application that requires JavaScript, the basic structure provided can be extended to include JavaScript for dynamic functionality.
+The Version 2.0 update introduces a subtitle and changes the color of the title, providing a visual indication of the update. The purpose of these changes is to demonstrate how simple it is to update and maintain web applications, even after they have been deployed. Like the previous version, this application can be viewed on various devices due to its responsive design. This application, though simple, provides a foundation upon which more complex and dynamic web applications can be built.
 
 ## Features
-- Basic HTML structure: The application consists of a simple HTML structure with a head and body section.
-- CSS Styling: The h1#title element is styled with CSS, specifically changing its color to red.
-- Responsive design: The web page is designed to be responsive and can adjust to different screen sizes.
+- Updated HTML structure: The application now includes a subtitle, h2#subtitle, with the text 'Updated Successfully'.
+- Updated CSS Styling: The h1#title element color has been changed from red to blue and now displays 'Version 2.0'.
 
 ## Setup Instructions
-1. Download the HTML file.
-2. Open the HTML file in a browser to view the web page.
+To run the application, follow these steps:
+1. Open your preferred web browser.
+2. Open the index.html file in the browser. This can usually be done by going to 'File > Open File' in the browser menu, then selecting the index.html file.
 
 ## Usage Guide
-Open the HTML file in a browser. You will see the text 'Version 1.0' displayed in red color.
+The application is straightforward to use. Upon opening the index.html file in a web browser, you will see the text 'Version 2.0' displayed in blue. Below it, you will see a subtitle that says 'Updated Successfully'.
 
 ## Technical Details
-- **HTML5**: Used for creating the structure of the web page.
-- **CSS3**: Used for styling the h1#title element on the web page.
+This project was created using HTML and CSS. HTML was used to structure the content of the web page, while CSS was used to style the HTML elements. The project is designed with a responsive layout, making it compatible with various devices and screen sizes.
 
 ## Code Explanation
-The web page consists of a simple HTML structure with a head and body section. The head section contains the meta tags for character encoding and viewport settings, and the title of the document. The CSS styles are also included in the head section within style tags. The body section contains the h1#title element which displays the text 'Version 1.0'.
+The application consists of a basic HTML structure with a head and body section. The head section contains style tags that define the CSS for the page. The body section contains the h1 and h2 elements that display the title and subtitle.
 
-The CSS code changes the color of the h1#title element to red. This is achieved by using the id selector (#) followed by the id name (title) to select the h1 element with the id 'title', and setting its color property to red.
+In the CSS, the color of the h1#title element was changed from red to blue, and the text was changed to 'Version 2.0'. A new h2#subtitle element was also added, with the text 'Updated Successfully'.
+
+## Round 2 Note
+In this version, the h1#title element's color was changed from red to blue, and the text was updated to 'Version 2.0'. A new h2#subtitle element was also introduced, with the text 'Updated Successfully'. These changes were made to demonstrate the ease of updating a web application.
 
 ## License
 This project is licensed under the terms of the MIT License.
